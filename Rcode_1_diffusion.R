@@ -6,13 +6,6 @@ proact_data <- read_xlsx(path = "C:\\Users\\LiBaini\\Documents\\2024_Summer\\EN.
 
 
 
-
-
-########################################################################
-########################################################################
-########################################################################
-
-
 ### diffusionMap
 ### https://cran.r-project.org/web/packages/diffusionMap/diffusionMap.pdf
 
