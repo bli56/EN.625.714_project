@@ -2,29 +2,8 @@
 DM LOG 'CLEAR';
 DM LST 'CLEAR';
 
-/************************************************************************************************
-Statistical Analysis Path :
-Study name                : CB03-154-201
-Company name              : ZM
-Program Name              : 
-SAS Version               : 9.4
-Author                    : Baini Li
-Date                      : 09JUN2023
-Input                     :
-Output                    : 
-Comments                  :
-
-History of changes:
-Version    Owner        Date            Description 
-2.0        Baini Li     07MAY2023       Added randomly pick function for expanded data
-2.1        Baini Li     19MAY2023       Changed visit time windows
-3.0        Baini Li     05JUN2023       Changed the percentage of subjects for interim analysis: 50%
-3.1        Baini Li     08JUN2023       Prolonged observation duration to 48 weeks
-*************************************************************************************************/
-
 %let path1 = C:\Users\LiBaini\Documents\2024_Summer\EN.625.714.81.SU24 Introductory Stochastic Differential Equations with Applications\714 project\Data\PRO-ACT database ;
 %let path2 = C:\Users\LiBaini\Documents\2024_Summer\EN.625.714.81.SU24 Introductory Stochastic Differential Equations with Applications\714 project\Data\ ;
-
 
 /*** Data preparation ***/
 /* Find subjects with definite El Escorial Diagnosis */
